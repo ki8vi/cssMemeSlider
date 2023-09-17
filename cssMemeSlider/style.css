@@ -238,10 +238,17 @@ input[name="r-b"] {
         width: 90%;
         padding: 0;
     }
-    /* .cbtn1:hover > .custom-btn, .cbtn2:hover > .custom-btn, .cbtn3:hover > .custom-btn, .cbtn4:hover > .custom-btn, .cbtn5:hover > .custom-btn {
-        background-color: #A52A2A;
-        border-color: #A52A2A;
-    } */
 }
 
 
+@media screen and (max-width: 490px) {
+    body {
+        background-color: #DEB887;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .slider-wrapper {
+        box-shadow: none;
+    }
+}
