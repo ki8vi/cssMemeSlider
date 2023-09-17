@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Meme Slider</title>
 </head>
 <body>
+    
+      
+        <div class="slider-wrapper">
+            <input class="btn1" type="radio" name="r-b" id="s1" checked>
+            <input class="btn2" type="radio" name="r-b" id="s2">
+            <input class="btn3" type="radio" name="r-b" id="s3">
+            <input class="btn4" type="radio" name="r-b" id="s4">
+            <input class="btn5" type="radio" name="r-b" id="s5">
+
+           <div class="slider">
+                <div class="slider-line">
+                    <div class="slide"><img src="./assets/images/image1.jpg" alt="slider-img1" class="slider-img"></div>
+                    <div class="slide"><img src="./assets/images/image2.jpg" alt="slider-img2" class="slider-img"></div>
+                    <div class="slide"><img src="./assets/images/image3.jpg" alt="slider-img3" class="slider-img"></div>
+                    <div class="slide"><img src="./assets/images/image4.jpg" alt="slider-img4" class="slider-img"></div>
+                    <div class="slide"><img src="./assets/images/image5.jpg" alt="slider-img5" class="slider-img"></div>
+                </div>
+           </div>
+           <div class="slider-down">
+                <div class="slider-text-frame">
+                    <div class="slider-text-line">
+                        <h3 class="slide1-text slide-text">После 15+ попыток решения задачи...</h3>
+                        <h3 class="slide2-text slide-text">Наверное для начала нужно узнать как это работает под капотом...</h3>
+                        <h3 class="slide3-text slide-text">Нужно еще раз перечитать задание...</h3>
+                        <h3 class="slide4-text slide-text">О боже, здесь какая-то шифровка...</h3>
+                        <h3 class="slide5-text slide-text">Кажется, я открыл ящик пандоры!</h3>
+                    </div>
+                </div>
+                
+                <div class="pagination">
+                    <label for="s1" class="cbtn1"><div class="custom-btn"></div></label>
+                    <label for="s2" class="cbtn2"><div class="custom-btn"></div></label>
+                    <label for="s3" class="cbtn3"><div class="custom-btn"></div></label>
+                    <label for="s4" class="cbtn4"><div class="custom-btn"></div></label>
+                    <label for="s5" class="cbtn5"><div class="custom-btn"></div></label>
+                    
+                    <!-- <div class="cbtn2"><label for="s2" class="custom-btn"></label></div>
+                    <div class="cbtn3"><label for="s3" class="custom-btn"></label></div>
+                    <div class="cbtn4"><label for="s4" class="custom-btn"></label></div>
+                    <div class="cbtn5"><label for="s5" class="custom-btn"></label></div> -->
+                    
+                    
+                </div>
+           </div>
+           
+        </div>
+       
+
     
 </body>
 </html>
